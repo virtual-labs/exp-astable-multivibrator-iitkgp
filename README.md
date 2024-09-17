@@ -9,7 +9,7 @@
 ### About the Experiment 
 
 
-### Subject Matter Expert
+### Project Principal Investigator
 <b>Name | <b> **Prof. C.S.Kumar**
 :--|:--|
 <b> Institute | <b>  **Indian Institute of Technology Kharagpur**
