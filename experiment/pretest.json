@@ -40,10 +40,10 @@
     {
       "question": "Determine the frequency and duty cycle for the 555 astable multivibrator output for C=0.01 uF, R<sub>A</sub>= 2 kohm and R<sub>B</sub>= 100 kohm.",
       "answers": {
-        "a": "Frequency = 714.3 Hz, Duty cycle = 50.5\/%",
-        "b": "Frequency = 214.3 Hz, Duty cycle = 25.5\/%",
-        "c": "Frequency = 208.9 Hz, Duty cycle = 75.5\/%",
-        "d": "Frequency = 700.5 Hz, Duty cycle = 50.5\/%"
+        "a": "Frequency = 714.3 Hz, Duty cycle = 50.5 %",
+        "b": "Frequency = 214.3 Hz, Duty cycle = 25.5 %",
+        "c": "Frequency = 208.9 Hz, Duty cycle = 75.5 %",
+        "d": "Frequency = 700.5 Hz, Duty cycle = 50.5 %"
       },
       
       "correctAnswer": "a",
