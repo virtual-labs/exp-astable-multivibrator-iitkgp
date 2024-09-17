@@ -1,1 +1,1 @@
-## Experiment name
+## Astable Multivibrator using IC 555
