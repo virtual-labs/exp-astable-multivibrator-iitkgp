@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. How to calculate duty cycle of an astable multivibrator output?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Duty cycle =(T<sub>ON</sub>/(1+T<sub>OFF</sub>)) *100",
+        "b": "Duty cycle = T<sub>ON</sub>/T * 100 ",
+        "c": "Duty cycle =  (T<sub>OFF</sub>/(T<sub>ON</sub>+T<sub>OFF</sub>)) *100",
+        "d": "Duty cycle =  (T<sub>ON</sub>/(T<sub>ON</sub>+T<sub>OFF</sub>)) *100"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is the formula to calculate the time period of the astable multivibrator?",
+      "answers": {
+        "a": "T = 0.69 * (R<sub>A</sub> + 2R<sub>B</sub>) * C ",
+        "b": "T = 0.69 * R<sub>B</sub> * C",
+        "c": "T = 0.69 * (R<sub>A</sub> + R<sub>B</sub>) * C ",
+        "d": " T = 1.1 * R * C"
       },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. Design a 555 timer as an astable multivibrator with an output signal frequency 0f 800 Hz and 60 % duty cycle.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "R<sub>A</sub>=  36 kohm,R<sub>B</sub>= 72 kohm, C=0.01uF",
+        "b": "R<sub>A</sub>=  100 kohm,R<sub>B</sub>= 36 kohm, C=0.01uF",
+        "c": "R<sub>A</sub>=  72 kohm,R<sub>B</sub>= 36 kohm, C=0.01uF",
+        "d": "R<sub>A</sub>=  72 kohm,R<sub>B</sub>= 100 kohm, C=0.01uF"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Determine the positive pulse width,negative pulse width and free running frequency for an astable multivibrator using 555 timer. R<sub>A</sub>=4.7 kohm, R<sub>B</sub> = 1 ohm, C=1 uF, C<sub>1</sub> = 0.01 uF. What is the duty cycle of output waveform?",
+      "answers": {
+        "a": "Duty cycle = 50 %",
+        "b": "Duty cycle = 25 %",
+        "c": "Duty cycle = 85 %",
+        "d": "Duty cycle = 100 %"
       },
+     
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The timer IC555 is used as astable multivibrator. It is desired to have square-wave output with 50% duty cycle of 1 kHz. The timing capacitor is of 0.01uF. Find the values of resistors required and draw the circuit.",
+      "answers": {
+        "a": "R<sub>A</sub> = R<sub>B</sub>=58 kohm",
+        "b": "R<sub>A</sub> = R<sub>B</sub>=2 kohm",
+        "c": "R<sub>A</sub> = R<sub>B</sub>=100 kohm",
+        "d": "R<sub>A</sub> = R<sub>B</sub>=68 kohm"
+      },
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
