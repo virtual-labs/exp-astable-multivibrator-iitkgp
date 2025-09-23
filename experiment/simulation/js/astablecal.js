@@ -72,8 +72,9 @@ function vinChange(){
 			//plot();
 			vcapacitor();		
 			
-			document.getElementById("voutput").value=parseInt(vo);
+			document.getElementById("voutput").value=parseInt(vcc);
 			document.getElementById("fout").value=frq*Math.pow(10,-3) // khz
+			document.getElementById("dutycycle").value=parseInt(dutycycle);
 			
 	}
 	
